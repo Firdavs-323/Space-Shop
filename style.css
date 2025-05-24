@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  text-align: center;
+}
+
+h1 {
+  background-color: yellow;
+  color: black;
+  padding: 20px;
+  border: 8px solid blue;
+  border-radius: 30px;
+  margin: 20px auto;
+  width: 60%;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 95%;
+}
+
+th {
+  background-color:orange;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #ffa;
+  cursor: pointer;
+}
+
+.product-name,
+.coin,
+.quantity {
+  background-color: blue;
+  color: yellow;
+}
+
+.image-cell {
+  background-color: green;
+}
+
+.image-cell img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.number-cell {
+  background-color: white;
+}
+
+.button-cell {
+  background-color: white;
+  position: relative;
+}
+
+.buy-btn {
+  display: none;
+  padding: 6px 12px;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+tbody tr:hover .buy-btn {
+  display: inline-block;
+}
+
+.buy-btn:hover {
+  background-color: darkorange;
+}
